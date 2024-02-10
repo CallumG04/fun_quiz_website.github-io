@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="quiz-info">
+        <h3>Welcome to quiz 1</h3>
+        <p>Answer each question and then check your score </p>
+    </div>
+    <div class="quiz-area">
+        <label for="quiz1_question1">Question 1</label>
+        <input type="text" id="quiz1_question1" placeholder="" onchange="check_url()" /><br><br>
+        <label for="quiz1_question2">Question 2</label>
+        <input type="text" id="quiz1_question2" placeholder=""/><br><br>
+        <label for="quiz1_question3">Question 3</label>
+        <input type="text" id="quiz1_question3" placeholder=""/><br><br>
+        <label for="quiz1_question4">Question 4</label>
+        <input type="text" id="quiz1_question4" placeholder=""/><br><br>
+        <label for="quiz1_question5">Question 5</label>
+        <input type="text" id="quiz1_question5" placeholder=""/><br>
+        <br><br>
+        <button class="" onclick="mark_quiz1()" id="">Submit</button>
+    </div>
+    <div class="results-area">
+        <span class="quiz1_results_text"></span>
+    </div>
+    <div class="return-buttons" style="display: none">
+        <a href="">Back</a>
+    </div>
+</body>
+</html>
