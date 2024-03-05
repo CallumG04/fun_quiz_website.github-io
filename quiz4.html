@@ -21,10 +21,10 @@
             }
         }
     </script>
-    <title>Fun Quiz Website - Quiz 2</title>
+    <title>Fun Quiz Website - Quiz 4</title>
 </head>
 <nav class="quiz-navbar">
-    <h1 class="quiz-navbar-header">Quiz 2 - General Knowledge</h1>
+    <h1 class="quiz-navbar-header">Quiz 4 - Cars</h1>
     <ul class="quiz-navbar-ul">
         <li class="quiz-navbar-li"><a href="quiz4.html">Quiz 5</a></li>
         <li class="quiz-navbar-li"><a href="quiz4.html">Quiz 4</a></li>
@@ -36,31 +36,37 @@
 </nav>
 <body>
     <div class="quiz-info">
-        <h3>Welcome to quiz 2</h3>
+        <h3>Welcome to quiz 4</h3>
         <p>Answer each question and then check your score </p>
-    </div>
+        <p>For answers to questions that are more than one word, type in the first word followed by a space inbetween each word ie. if the answer was Russia & Greece you would enter Russia Greece</p>
+    </div><br>
     <div>
-        <button class="quiz-button" onclick="display_quiz(2)">Start Quiz!</button>
+        <button class="quiz-button" onclick="display_quiz(4)">Start Quiz!</button>
     </div><br><br>
     <div class="quiz-area hide" id="quiz-area-2" style="display: none">
-        <label for="quiz1_question1">How tall is Blackpool tower? (to the nearest meter)</label>
+        <label for="quiz1_question1">What is the biggest country in the world?</label>
         <input type="text" id="quiz1_question1" placeholder="" onchange="check_url()" /><br><br>
-        <label for="quiz1_question2">When is the queens official borthday?</label>
+        <label for="quiz1_question2">What is the smallest country in the world?</label>
         <input type="text" id="quiz1_question2" placeholder=""/><br><br>
-        <label for="quiz1_question3">What was the name of the UK's first ever newspaper?</label>
+        <label for="quiz1_question3">Patagonia is part of what two countries?</label>
         <input type="text" id="quiz1_question3" placeholder=""/><br><br>
-        <label for="quiz1_question4">Which Star Wars character is best known for the line "I am your father"?</label>
+        <label for="quiz1_question4">Which country is known as the Hexagon?</label>
         <input type="text" id="quiz1_question4" placeholder=""/><br><br>
-        <label for="quiz1_question5">What was the first Marvel movie ever made?</label>
+        <label for="quiz1_question5">What country is known as 'The Emerald Isle'?</label>
         <input type="text" id="quiz1_question5" placeholder=""/><br>
         <br><br>
-        <button class="" onclick="mark_quiz2()" id="">Submit</button>
+        <button class="" onclick="mark_quiz1()" id="">Submit</button>
+    </div><br>
+    <div class="results_area">
+        <span id="quiz1_results_text"></span>
     </div>
-    <div class="return-buttons">
+    <div class="quiz-image">
+        <img src="try-again.png" alt="Try Again Image" class="quiz-image" id="try_again_image" style="display: none; height: 40px; height: 70px">
+        <img src="you-can-do-better.png" alt="Try Again Image" class="quiz-image" id="better_image" style="display: none; height: 40px; height: 70px">
+        <img src="great-work-image.png" alt="Try Again Image" class="quiz-image" id="great_work_image" style="display: none; height: 40px; height: 70px">
+    </div>
+    <div class="return_buttons" style="display: none">
         <a href="">Back</a>
-    </div>
-    <div class="results-area">
-        <span class="quiz2_results_text"></span>
     </div>
 </body>
 </html>
