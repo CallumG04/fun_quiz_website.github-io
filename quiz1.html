@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
-    <script src="javascript.js"></script>
-    <script src="leaderboard.js"></script>
+    <script src="./js/javascript.js"></script>
+    <script src="./js/leaderboard.js"></script>
+    <script src="./js/stopwatch.js"></script>
     <script>
         function display_quiz(quiz_number){
 
@@ -42,7 +43,7 @@
         <p>For answers to questions that are more than one word, type in the first word followed by a space inbetween each word ie. if the answer was Russia & Greece you would enter Russia Greece</p>
     </div><br>
     <div>
-        <button class="quiz-button" onclick="display_quiz(1)">Start Quiz!</button>
+        <button class="quiz-button" id="button-start onclick="display_quiz(1)">Start Quiz!</button>
     </div><br><br>
     <div class="quiz-area hide" id="quiz-area-1" style="display: none">
         <label for="quiz1_question1">What is the biggest country in the world?</label>
@@ -56,7 +57,8 @@
         <label for="quiz1_question5">What country is known as 'The Emerald Isle'?</label>
         <input type="text" id="quiz1_question5" placeholder=""/><br>
         <br><br>
-        <button class="" onclick="mark_quiz1()" id=""><a id="quiz1_submit">Submit</a></button>
+        <button class="" onclick="mark_quiz1()"  id="button-stop"><a id="quiz1_submit">Submit</a></button>
+        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
     </div><br>
     <div class="results_area">
         <span id="quiz1_results_text"></span> 
@@ -68,6 +70,7 @@
     </div>
     <div class="return_buttons" style="display: none">
         <a href="">Back</a>
+        <button id="button-reset">Reset</button>
     </div>
 </body>
 </html>
