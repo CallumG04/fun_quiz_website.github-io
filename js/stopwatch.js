@@ -49,7 +49,7 @@ window.onload = function () {
         tens = 0;
         appendTens.innerHTML = "0" + 0;
       }
-      
+       
       if (seconds > 9){
         appendSeconds.innerHTML = seconds;
       }
