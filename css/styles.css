@@ -46,6 +46,10 @@ body{
     padding-top: 3px;
 }
 
+.quiz-navbar-ul a {
+    color: 'black';
+}
+
 .quiz-navbar-li{
     font-size: 19px;
     float: right;
