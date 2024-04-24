@@ -88,3 +88,8 @@ body{
     border-radius: 10px;
 }
 
+.site-footer nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
