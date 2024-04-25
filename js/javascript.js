@@ -53,7 +53,7 @@ function mark_quiz2(){
     var question4 = document.getElementById("quiz2_question4").value;
     var question5 = document.getElementById("quiz2_question5").value;
 
-    var quiz2_result = document.getElementById("quiz1_results_text");
+    var quiz2_results_text = document.getElementById("quiz2_results_text");
 
     var score = 0;
 
@@ -100,7 +100,7 @@ function mark_quiz3(){
     var question4 = document.getElementById("quiz3_question4").value;
     var question5 = document.getElementById("quiz3_question5").value;
 
-    var quiz3_result = document.getElementById("quiz3_results_text");
+    var quiz3_results_text = document.getElementById("quiz3_results_text");
 
     var score = 0;
 
@@ -135,7 +135,7 @@ function mark_quiz3(){
         document.getElementById("great_work_image_3").style.display = "block";
     }*/
 
-    quiz3_result.innerHTML = "You scored " + score + " out of 5";
+    quiz3_results_text.innerHTML = "You scored " + score + " out of 5";
     
 }
 
@@ -147,7 +147,7 @@ function mark_quiz4(){
     var question4 = document.getElementById("quiz4_question4").value;
     var question5 = document.getElementById("quiz4_question5").value;
 
-    var quiz4_result = document.getElementById("quiz4_results_text");
+    var quiz4_results_text = document.getElementById("quiz4_results_text");
 
     var score = 0;
 
@@ -182,6 +182,6 @@ function mark_quiz4(){
         document.getElementById("great_work_image_4").style.display = "block";
     }*/
 
-    quiz4_result.innerHTML = "You scored " + score + " out of 5";
+    quiz4_results_text.innerHTML = "You scored " + score + " out of 5";
     
 }
