@@ -1,3 +1,18 @@
+function display_quiz(quiz_number){
+
+  var quiz = document.getElementById("quiz-area-"+ quiz_number);
+
+  if (quiz.classList.contains("hide")){
+      quiz.classList.remove("hide");
+      quiz.classList.add("in");
+      quiz.style.display = "block";
+  } else{
+      quiz.classList.remove("in");
+      quiz.classList.add("hide");
+      quiz.style.display = "none";
+  }
+}
+
 window.onload = function () {
   
     var seconds = 0; 
@@ -11,6 +26,8 @@ window.onload = function () {
   
     if (buttonStart !== undefined && buttonStart !== null) {
       buttonStart.onclick = function() {
+
+        display_quiz(1);
       
         clearInterval(Interval);
          Interval = setInterval(startTimer, 10);
