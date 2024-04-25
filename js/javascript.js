@@ -27,17 +27,17 @@ function mark_quiz1(){
     }
 
     if (score < 2){
-        document.getElementById("try_again_image").style.display = "block";
-        document.getElementById("better_image").style.display = "none";
-        document.getElementById("great_work_image").style.display = "none";
+        document.getElementById("try_again_image_1").style.display = "block";
+        document.getElementById("better_image_1").style.display = "none";
+        document.getElementById("great_work_image_1").style.display = "none";
     } else if (score > 1 && score < 4){
-        document.getElementById("try_again_image").style.display = "none";
-        document.getElementById("better_image").style.display = "block";
-        document.getElementById("great_work_image").style.display = "none";
+        document.getElementById("try_again_image_1").style.display = "none";
+        document.getElementById("better_image_1").style.display = "block";
+        document.getElementById("great_work_image_1").style.display = "none";
     } else if (score >= 4){
-        document.getElementById("try_again_image").style.display = "none";
-        document.getElementById("better_image").style.display = "none";
-        document.getElementById("great_work_image").style.display = "block";
+        document.getElementById("try_again_image_1").style.display = "none";
+        document.getElementById("better_image_1").style.display = "none";
+        document.getElementById("great_work_image_1").style.display = "block";
     }
 
     quiz1_results_text.innerHTML = "You scored " + score + " out of 5";
