@@ -52,7 +52,7 @@ function mark_quiz2(){
     var question4 = document.getElementById("quiz2_question4").value;
     var question5 = document.getElementById("quiz2_question5").value;
 
-    var quiz1_result = document.getElementById("quiz1_results_text");
+    var quiz2_result = document.getElementById("quiz1_results_text");
 
     var score = 0;
 
@@ -71,6 +71,22 @@ function mark_quiz2(){
     if (question5 == "Iron Man"){
         score ++;
     }
+
+    if (score < 2){
+        document.getElementById("try_again_image_2").style.display = "block";
+        document.getElementById("better_image_2").style.display = "none";
+        document.getElementById("great_work_image_2").style.display = "none";
+    } else if (score > 1 && score < 4){
+        document.getElementById("try_again_image_2").style.display = "none";
+        document.getElementById("better_image_2").style.display = "block";
+        document.getElementById("great_work_image_2").style.display = "none";
+    } else if (score >= 4){
+        document.getElementById("try_again_image_2").style.display = "none";
+        document.getElementById("better_image_2").style.display = "none";
+        document.getElementById("great_work_image_2").style.display = "block";
+    }
+
+    quiz2_result.innerHTML = "You scored " + score + " out of 5";
 
     quiz2_results_text.innerHTML = "You scored " + score + " out of 5";
     
@@ -104,6 +120,20 @@ function mark_quiz3(){
         score ++;
     }
 
+    if (score < 2){
+        document.getElementById("try_again_image_3").style.display = "block";
+        document.getElementById("better_image_3").style.display = "none";
+        document.getElementById("great_work_image_3").style.display = "none";
+    } else if (score > 1 && score < 4){
+        document.getElementById("try_again_image_3").style.display = "none";
+        document.getElementById("better_image_3").style.display = "block";
+        document.getElementById("great_work_image_3").style.display = "none";
+    } else if (score >= 4){
+        document.getElementById("try_again_image_3").style.display = "none";
+        document.getElementById("better_image_3").style.display = "none";
+        document.getElementById("great_work_image_3").style.display = "block";
+    }
+
     quiz3_result.innerHTML = "You scored " + score + " out of 5";
     
 }
@@ -134,6 +164,20 @@ function mark_quiz4(){
     }
     if (question5 == "Ford Puma"){
         score ++;
+    }
+
+    if (score < 2){
+        document.getElementById("try_again_image_4").style.display = "block";
+        document.getElementById("better_image_4").style.display = "none";
+        document.getElementById("great_work_image_4").style.display = "none";
+    } else if (score > 1 && score < 4){
+        document.getElementById("try_again_image_4").style.display = "none";
+        document.getElementById("better_image_4").style.display = "block";
+        document.getElementById("great_work_image_4").style.display = "none";
+    } else if (score >= 4){
+        document.getElementById("try_again_image_4").style.display = "none";
+        document.getElementById("better_image_4").style.display = "none";
+        document.getElementById("great_work_image_4").style.display = "block";
     }
 
     quiz4_result.innerHTML = "You scored " + score + " out of 5";
