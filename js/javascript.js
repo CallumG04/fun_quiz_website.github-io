@@ -26,6 +26,7 @@ function mark_quiz1(){
         score ++;
     }
 
+    /*
     if (score < 2){
         document.getElementById("try_again_image_1").style.display = "block";
         document.getElementById("better_image_1").style.display = "none";
@@ -38,7 +39,7 @@ function mark_quiz1(){
         document.getElementById("try_again_image_1").style.display = "none";
         document.getElementById("better_image_1").style.display = "none";
         document.getElementById("great_work_image_1").style.display = "block";
-    }
+    }*/
 
     quiz1_results_text.innerHTML = "You scored " + score + " out of 5";
     
