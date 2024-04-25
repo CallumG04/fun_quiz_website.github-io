@@ -73,6 +73,7 @@ function mark_quiz2(){
         score ++;
     }
 
+        /*
     if (score < 2){
         document.getElementById("try_again_image_2").style.display = "block";
         document.getElementById("better_image_2").style.display = "none";
@@ -85,7 +86,7 @@ function mark_quiz2(){
         document.getElementById("try_again_image_2").style.display = "none";
         document.getElementById("better_image_2").style.display = "none";
         document.getElementById("great_work_image_2").style.display = "block";
-    }
+    }*/
 
     quiz2_results_text.innerHTML = "You scored " + score + " out of 5";
     
@@ -119,6 +120,7 @@ function mark_quiz3(){
         score ++;
     }
 
+        /*
     if (score < 2){
         document.getElementById("try_again_image_3").style.display = "block";
         document.getElementById("better_image_3").style.display = "none";
@@ -131,7 +133,7 @@ function mark_quiz3(){
         document.getElementById("try_again_image_3").style.display = "none";
         document.getElementById("better_image_3").style.display = "none";
         document.getElementById("great_work_image_3").style.display = "block";
-    }
+    }*/
 
     quiz3_result.innerHTML = "You scored " + score + " out of 5";
     
@@ -165,6 +167,7 @@ function mark_quiz4(){
         score ++;
     }
 
+        /*
     if (score < 2){
         document.getElementById("try_again_image_4").style.display = "block";
         document.getElementById("better_image_4").style.display = "none";
@@ -177,7 +180,7 @@ function mark_quiz4(){
         document.getElementById("try_again_image_4").style.display = "none";
         document.getElementById("better_image_4").style.display = "none";
         document.getElementById("great_work_image_4").style.display = "block";
-    }
+    }*/
 
     quiz4_result.innerHTML = "You scored " + score + " out of 5";
     
