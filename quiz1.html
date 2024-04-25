@@ -50,6 +50,7 @@ window.onload = function () {
     
   
     buttonReset.onclick = function() {
+        mark_quiz1();
        clearInterval(Interval);
       tens = "00";
         seconds = "00";
@@ -120,7 +121,7 @@ window.onload = function () {
         <label for="quiz1_question5">What country is known as 'The Emerald Isle'?</label>
         <input type="text" id="quiz1_question5" placeholder=""/><br>
         <br><br>
-        <button class="" onclick="mark_quiz1()"  id="button-stop"><a id="quiz1_submit">Submit</a></button>
+        <button class=""  id="button-stop"><a id="quiz1_submit">Submit</a></button>
             
     </div><br>
     <div class="results_area_1">
