@@ -44,12 +44,12 @@ if (buttonStart !== undefined && buttonStart !== null) {
   }
   
     buttonStop.onclick = function() {
+        mark_quiz4();
        clearInterval(Interval);
   }
   
 
   buttonReset.onclick = function() {
-    mark_quiz4();
      clearInterval(Interval);
     tens = "00";
       seconds = "00";
