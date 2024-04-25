@@ -6,7 +6,7 @@ function mark_quiz1(){
     var question4 = document.getElementById("quiz1_question4").value;
     var question5 = document.getElementById("quiz1_question5").value;
 
-    var quiz1_result = document.getElementById("quiz1_results_text");
+    var quiz1_results_text = document.getElementById("quiz1_results_text");
 
     var score = 0;
 
@@ -40,7 +40,7 @@ function mark_quiz1(){
         document.getElementById("great_work_image").style.display = "block";
     }
 
-    quiz1_result.innerHTML = "You scored " + score + " out of 5";
+    quiz1_results_text.innerHTML = "You scored " + score + " out of 5";
     
 }
 
@@ -85,8 +85,6 @@ function mark_quiz2(){
         document.getElementById("better_image_2").style.display = "none";
         document.getElementById("great_work_image_2").style.display = "block";
     }
-
-    quiz2_result.innerHTML = "You scored " + score + " out of 5";
 
     quiz2_results_text.innerHTML = "You scored " + score + " out of 5";
     
