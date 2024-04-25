@@ -78,33 +78,33 @@ function mark_quiz2(){
 
 function mark_quiz3(){
 
-    var question1 = document.getElementById("quiz1_question1").value;
-    var question2 = document.getElementById("quiz1_question2").value;
-    var question3 = document.getElementById("quiz1_question3").value;
-    var question4 = document.getElementById("quiz1_question4").value;
-    var question5 = document.getElementById("quiz1_question5").value;
+    var question1 = document.getElementById("quiz3_question1").value;
+    var question2 = document.getElementById("quiz3_question2").value;
+    var question3 = document.getElementById("quiz3_question3").value;
+    var question4 = document.getElementById("quiz3_question4").value;
+    var question5 = document.getElementById("quiz3_question5").value;
 
-    var quiz1_result = document.getElementById("quiz1_results_text");
+    var quiz3_result = document.getElementById("quiz3_results_text");
 
     var score = 0;
 
-    if (question1 == "Q1"){
+    if (question1 == "Banannas"){
         score ++;
     }
-    if (question2 == "Q2"){
+    if (question2 == "Carolina Reaper"){
         score ++;
     }
-    if (question3 == "Q3"){
+    if (question3 == "Cucumber"){
         score ++;
     }
-    if (question4 == "Q4"){
+    if (question4 == "Carberenet Sauvignon"){
         score ++;
     }
-    if (question5 == "Q5"){
+    if (question5 == "Tequila"){
         score ++;
     }
 
-    quiz1_result.innerHTML = "You scored " + score + " out of 5";
+    quiz3_result.innerHTML = "You scored " + score + " out of 5";
     
 }
 
