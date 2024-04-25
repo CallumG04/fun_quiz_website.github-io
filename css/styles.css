@@ -93,3 +93,7 @@ body{
     text-decoration: none;
 }
 
+.site-footer {
+    height: 100px;
+    background-color: lightgray
+}
