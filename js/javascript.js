@@ -57,10 +57,10 @@ function mark_quiz2(){
 
     var score = 0;
 
-    if (question1 == "158"){
+    if (question1 == "1"){
         score ++;
     }
-    if (question2 == "June 11"){
+    if (question2 == "1"){
         score ++;
     }
     if (question3 == "The Daily Courant"){
