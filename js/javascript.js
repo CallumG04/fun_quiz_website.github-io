@@ -69,7 +69,7 @@ function mark_quiz2(){
     if (question4 == "Darth Vader"){
         score ++;
     }
-    if (question5 == "Iron Man"){
+    if (question5 == "1"){
         score ++;
     }
 
