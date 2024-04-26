@@ -108,17 +108,21 @@ if (buttonStart !== undefined && buttonStart !== null) {
         <button class="quiz-button" id="button-start">Start Quiz!</button>
     </div><br><br>
     <div class="quiz-area hide" id="quiz-area-2" style="display: none">
-        <label for="quiz2_question1">How tall is Blackpool tower? (to the nearest meter)</label><br><br>
-         <input type="radio" id="quiz2_question1" name="fav_language" value="158">
-         <label for="quiz2_question1">158m</label><br>
-         <input type="radio" id="quiz2_question1" name="fav_language" value="123">
-         <label for="quiz2_question1">123m</label><br>
-         <input type="radio" id="quiz2_question1" name="fav_language" value="240">
-         <label for="quiz2_question1">240m</label><br><br>
-        <label for="quiz2_question2">When is the queens official borthday?</label>
-        <input type="text" id="quiz2_question2" placeholder=""/><br><br>
+        <label for="cars">How tall is Blackpool tower? (to the nearest meter)</label>
+        <select id="quiz2_question1" name="cars" size="3">
+            <option value="1">Volvo</option>
+            <option value="2">Saab</option>
+            <option value="3">Fiat</option>
+            <option value="4">Audi</option>
+        </select>
+        <label for="cars">When is the queens official birthday?</label>
+        <select id="quiz2_question2" name="cars" size="3">
+            <option value="1">21 April 1926</option>
+            <option value="2">21st June 1940</option>
+            <option value="3">14th April 1990</option>
+        </select>
         <label for="quiz2_question3">What was the name of the UK's first ever newspaper?</label>
-        <input type="text" id="quiz2_question3" placeholder=""/><br><br>
+        <input type="text" id="quiz2_question3" placeholder="" value=""/><br><br>
         <label for="quiz2_question4">Which Star Wars character is best known for the line "I am your father"?</label>
         <input type="text" id="quiz2_question4" placeholder=""/><br><br>
         <label for="quiz2_question5">Was Iron Man the first ever marvel movie?</label>
