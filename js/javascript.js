@@ -153,7 +153,7 @@ function mark_quiz4(){
 
     var score = 0;
 
-    if (question1 == "Mike Hawthorn"){
+    if (question1 == "2"){
         score ++;
     }
     if (question2 == "Max Verstappen"){
@@ -162,7 +162,7 @@ function mark_quiz4(){
     if (question3 == "Cars"){
         score ++;
     }
-    if (question4 == "Tesla"){
+    if (question4 == "2"){
         score ++;
     }
     if (question5 == "Ford Puma"){
