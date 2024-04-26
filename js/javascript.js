@@ -73,6 +73,8 @@ function mark_quiz2(){
         score ++;
     }
 
+    alert(question1);
+
         /*
     if (score < 2){
         document.getElementById("try_again_image_2").style.display = "block";
