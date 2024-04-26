@@ -104,7 +104,7 @@ function mark_quiz3(){
 
     var score = 0;
 
-    if (question1 == "Banannas"){
+    if (question1 == "2"){
         score ++;
     }
     if (question2 == "Carolina Reaper"){
@@ -113,7 +113,7 @@ function mark_quiz3(){
     if (question3 == "Cucumber"){
         score ++;
     }
-    if (question4 == "Carberenet Sauvignon"){
+    if (question4 == "1"){
         score ++;
     }
     if (question5 == "Tequila"){
