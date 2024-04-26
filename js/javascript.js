@@ -73,7 +73,7 @@ function mark_quiz2(){
         score ++;
     }
 
-    alert(question1);
+    console.log("q1:" + question1);
 
         /*
     if (score < 2){
